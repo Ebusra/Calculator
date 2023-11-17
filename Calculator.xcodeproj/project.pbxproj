@@ -14,6 +14,7 @@
 		FD7EBCE32B075A8B00032805 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7EBCE22B075A8B00032805 /* CalculatorTests.swift */; };
 		FD7EBCED2B075A8B00032805 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7EBCEC2B075A8B00032805 /* CalculatorUITests.swift */; };
 		FD7EBCEF2B075A8B00032805 /* CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7EBCEE2B075A8B00032805 /* CalculatorUITestsLaunchTests.swift */; };
+		FD7EBCFE2B07A62100032805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7EBCFD2B07A62100032805 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		FD7EBCE82B075A8B00032805 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD7EBCEC2B075A8B00032805 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		FD7EBCEE2B075A8B00032805 /* CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD7EBCFD2B07A62100032805 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				FD7EBCD32B075A8A00032805 /* ContentView.swift */,
 				FD7EBCD52B075A8B00032805 /* Assets.xcassets */,
 				FD7EBCD72B075A8B00032805 /* Preview Content */,
+				FD7EBCFD2B07A62100032805 /* LaunchScreen.storyboard */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD7EBCFE2B07A62100032805 /* LaunchScreen.storyboard in Resources */,
 				FD7EBCD92B075A8B00032805 /* Preview Assets.xcassets in Resources */,
 				FD7EBCD62B075A8B00032805 /* Assets.xcassets in Resources */,
 			);
@@ -425,6 +429,7 @@
 				DEVELOPMENT_TEAM = G6XPA2NXAY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Basic Calculator";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +459,7 @@
 				DEVELOPMENT_TEAM = G6XPA2NXAY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Basic Calculator";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
